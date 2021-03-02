@@ -13,6 +13,11 @@ import org.junit.Assert;
 
 public class StatusStepDefs {
 
+    /**
+     * dashboardPage and new StatusPage() objects are created several times which is NOT needed
+     * Instead create on global object and use the same object below...
+     */
+
     @When("the user click on Profile")
     public void theUserClickOnProfile() {
         DashBoardPage dashboardPage = new DashBoardPage();
