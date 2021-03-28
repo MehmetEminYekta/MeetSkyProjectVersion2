@@ -1,5 +1,5 @@
 Feature: the user should be able to change folder view
-@MEET-126 @smoke
+@MEET-126
   Scenario: the view of folder is changed by Name
   Given user login with valid credentials
   Given the user click on "Files" module

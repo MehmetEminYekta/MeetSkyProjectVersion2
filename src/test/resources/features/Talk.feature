@@ -20,7 +20,7 @@ Feature:
 	#
 	#*User can start a call with any participant and leave the call*
 	# 
-	@MEET-175 @MEET-173 @smoke
+	@MEET-175 @MEET-173
 	Scenario: Display all conversation list under Talk module
 		When the user click on "talk" module
 		Then the user should see all conversation list under Talk module	

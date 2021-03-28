@@ -8,7 +8,7 @@ Feature:
 		
 
 	#the user should see all tasks list under Task module
-	@MEET-183 @MEET-182 @smoke
+	@MEET-183 @MEET-182
 	Scenario: Display all tasks as a list
 		Then the user should see all tasks list under Task module	
 
