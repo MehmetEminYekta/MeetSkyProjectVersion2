@@ -4,7 +4,7 @@ Feature: Calendar Module
   Background:
     Given user login with valid credentials
 
-  @MEET-143
+  @MEET-143 @smoke
   Scenario: Display Daily Calendar view
     When the user clicks on Calendar Module
     And the user clicks on view options button

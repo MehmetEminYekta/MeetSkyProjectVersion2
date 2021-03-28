@@ -1,6 +1,6 @@
 Feature: As a user, I should be able to log out
 
-  @MEET-139
+  @MEET-139 @smoke
   Scenario: Display personal info under Profile settings
     Given user login with valid credentials
     When the user click on Profile Settings
