@@ -12,6 +12,11 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class LogoutStepDefs {
+    /*
+    Line 22: new LogoutPage().profileSettingTab.click();
+    Line 37: new LogoutPage().logOut(); create 2 different object...Instead you may create one global object
+    and use the same object inside the methods...
+     */
 
     @When("the user click on Profile Settings")
     public void the_user_click_on_Profile_Settings() {
